@@ -127,7 +127,11 @@
             <Pin Id="LPImngkgD2mQTyS1bHYstQ" Name="Intensity" Kind="InputPin" />
             <Pin Id="E3wDbZ28R7dMFt9PqkogFv" Name="Force Build" Kind="InputPin" />
             <Pin Id="RDfrt8mmj64MppMAQTzoda" Name="Background Intensity" Kind="InputPin" />
-            <Pin Id="OgPHqv8CMujL3ZxkiOan9X" Name="Background Enabled" Kind="InputPin" />
+            <Pin Id="OgPHqv8CMujL3ZxkiOan9X" Name="Background Enabled" Kind="InputPin" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
             <Pin Id="CqOPGHfqdZAQNkz4QaayV3" Name="Component" Kind="InputPin" />
             <Pin Id="QoerhuYLUwqN0fZLZcx1c4" Name="Children" Kind="InputPin" />
             <Pin Id="SysQYWmt8tzNN1tBYf8gex" Name="Name" Kind="InputPin" />

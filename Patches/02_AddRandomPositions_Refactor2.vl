@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="SIX7yCJCdnpMRILrPfxXsQ" LanguageVersion="2021.3.2.109" Version="0.128">
-  <NugetDependency Id="SwoyEneIOmXO9sPIcbBwQW" Location="VL.CoreLib" Version="2021.3.2" />
+<Document xmlns:p="property" Id="SIX7yCJCdnpMRILrPfxXsQ" LanguageVersion="2021.3.3.131" Version="0.128">
+  <NugetDependency Id="SwoyEneIOmXO9sPIcbBwQW" Location="VL.CoreLib" Version="2021.3.3" />
   <Patch Id="HpJx3YpBiIMQFPbDSohDwL">
     <Canvas Id="OA4C4REReyXNzAw6gbsXCO" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -127,7 +127,11 @@
             <Pin Id="LPImngkgD2mQTyS1bHYstQ" Name="Intensity" Kind="InputPin" />
             <Pin Id="E3wDbZ28R7dMFt9PqkogFv" Name="Force Build" Kind="InputPin" />
             <Pin Id="RDfrt8mmj64MppMAQTzoda" Name="Background Intensity" Kind="InputPin" />
-            <Pin Id="OgPHqv8CMujL3ZxkiOan9X" Name="Background Enabled" Kind="InputPin" />
+            <Pin Id="OgPHqv8CMujL3ZxkiOan9X" Name="Background Enabled" Kind="InputPin" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
             <Pin Id="CqOPGHfqdZAQNkz4QaayV3" Name="Component" Kind="InputPin" />
             <Pin Id="QoerhuYLUwqN0fZLZcx1c4" Name="Children" Kind="InputPin" />
             <Pin Id="SysQYWmt8tzNN1tBYf8gex" Name="Name" Kind="InputPin" />
@@ -146,10 +150,10 @@
           </Pad>
           <!--
 
-    ************************ Model ************************
+    ************************ SpiralPointCloud ************************
 
 -->
-          <Node Name="Model" Bounds="763,293" Id="ITr0YmrZteoNtRXKD5Gfxs">
+          <Node Name="SpiralPointCloud" Bounds="763,293" Id="ITr0YmrZteoNtRXKD5Gfxs">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
               <Choice Kind="ContainerDefinition" Name="Process" />
             </p:NodeReference>
@@ -266,11 +270,6 @@
                       <Pin Id="IxSlzA815QoPj8rXjx8mWA" Name="Input" Kind="InputPin" Bounds="400,205" />
                       <Pin Id="GeWQGVPhUdlNllonpydTj5" Name="Output" Kind="OutputPin" Bounds="403,566" />
                     </Patch>
-                    <!--
-
-    ************************  ************************
-
--->
                     <ProcessDefinition Id="KrUxJw83VuDLKyRwWr9p8w">
                       <Fragment Id="SpkdHcStmiBPPfrNhVTA3b" Patch="IkT79HXSLaMOfoh82Bgked" Enabled="true" />
                       <Fragment Id="KYjqERNDXR0OAGfsyvM7rT" Patch="HeUIPeci143QGKfOzXXL2y" Enabled="true" />
@@ -399,11 +398,6 @@
                 <Pin Id="TERxQX7pNpdOFzY0IH2MSg" Name="Length" Kind="InputPin" Bounds="510,170" />
                 <Pin Id="EYqF8thljxWK9jv0F9a5vv" Name="Amplitude" Kind="InputPin" Bounds="591,175" />
               </Patch>
-              <!--
-
-    ************************  ************************
-
--->
               <ProcessDefinition Id="N6p1LJajYVjNsjt2uvDpQe">
                 <Fragment Id="RuAjFreyyw1QLpZ0hLREoy" Patch="N1O83BsIvvKQXSMJFWmSaU" Enabled="true" />
                 <Fragment Id="IFiWazM5LQnPCE3qr2u0XZ" Patch="F4HUvQIxVd7PmUI46ztX0z" Enabled="true" />
@@ -426,7 +420,7 @@
           <Node Bounds="377,347,45,19" Id="JoZ0G820MqyN5Scjthm0pO">
             <p:NodeReference LastCategoryFullName="Main.02_AddRandomPositions_Refactor2Application" LastSymbolSource="02_AddRandomPositions_Refactor2.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Model" />
+              <Choice Kind="ProcessAppFlag" Name="SpiralPointCloud" />
             </p:NodeReference>
             <Pin Id="Key9KPNZKMRNlL4d7TZQIX" Name="Input" Kind="InputPin" />
             <Pin Id="PeczHdE9uGfPauOPC8ZOaR" Name="Length" Kind="InputPin" />
@@ -436,11 +430,6 @@
         </Canvas>
         <Patch Id="VMWSckt5mhoQR4d54yzokt" Name="Create" />
         <Patch Id="QXo7RwjYgjaLFtkH72TfF4" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="LZFoFMYfsBQNLuyexmrJS9">
           <Fragment Id="ADKF8Sax8EAQHz7C8wL1Lv" Patch="VMWSckt5mhoQR4d54yzokt" Enabled="true" />
           <Fragment Id="RZagJoAIowOOwYb9uOxpOU" Patch="QXo7RwjYgjaLFtkH72TfF4" Enabled="true" />
@@ -461,6 +450,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Un9tkkJ1aYqMtQxG6h2MOK" Location="VL.CoreLib" Version="2021.3.2" />
-  <NugetDependency Id="Djc5I1kpTIxMC03qOgV6nL" Location="VL.Stride" Version="0.9.96-gbe66fd6c22" />
+  <NugetDependency Id="Un9tkkJ1aYqMtQxG6h2MOK" Location="VL.CoreLib" Version="2021.3.3" />
+  <NugetDependency Id="Djc5I1kpTIxMC03qOgV6nL" Location="VL.Stride" Version="2021.3.3" />
 </Document>

@@ -59,7 +59,7 @@
             <Pin Id="RoDZ5SMZ1MNLVBMblc1Kci" Name="Input Source" Kind="OutputPin" />
             <Pin Id="SmbY1gvTfAvPiDJy2umAsI" Name="MSAALevel" Kind="InputPin" />
           </Node>
-          <Pad Id="OdbFbh1SDNzPBwuUAEdpTE" Comment="Width" Bounds="300,80,35,15" ShowValueBox="true" isIOBox="true" Value="2.46">
+          <Pad Id="OdbFbh1SDNzPBwuUAEdpTE" Comment="Width" Bounds="300,80,35,15" ShowValueBox="true" isIOBox="true" Value="2.21">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -96,7 +96,7 @@
                     <Patch Id="Rl9jqxnXsMaPetWp6XpIRJ" Name="Update" ManuallySortedPins="true" />
                     <Patch Id="Jk2fjwe6SwPOtpR43liTGc" Name="Dispose" ManuallySortedPins="true" />
                     <Node Bounds="417,398,86,19" Id="VpgD8TjeHwnLA26wU23NHp">
-                      <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application.SpiralPointCloud" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+                      <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication.SpiralPointCloud" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="SampleSpiral" />
                       </p:NodeReference>
@@ -106,7 +106,7 @@
                       <Pin Id="NOlfxQfuQLfQYPCYXlIoJv" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="417,565,81,19" Id="NAQ0168CSy6QL1khNIQY8t">
-                      <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application.SpiralPointCloud" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+                      <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication.SpiralPointCloud" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="AddPoints" />
                       </p:NodeReference>
@@ -459,7 +459,7 @@
                   </Patch>
                 </Node>
                 <Node Bounds="707,286,78,19" Id="Sy38K4xQ1aXMKd8DNzRejv">
-                  <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application.SpiralPointCloud" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+                  <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication.SpiralPointCloud" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="SimplexNoise" />
                   </p:NodeReference>
@@ -564,12 +564,12 @@
               <Link Id="DQiSiT12PiQL4y8OVtJpIa" Ids="CweuF1nn2jcMnlJeLb1879,HqIum0YRkXpPcl3XLr0KEU" IsHidden="true" />
             </Patch>
           </Node>
-          <Pad Id="PDEA9kRuQK0QKjsBW0mLCF" Comment="Length" Bounds="368,151,35,15" ShowValueBox="true" isIOBox="true" Value="7.83">
+          <Pad Id="PDEA9kRuQK0QKjsBW0mLCF" Comment="Length" Bounds="368,151,35,15" ShowValueBox="true" isIOBox="true" Value="6.54">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="OG0ynivItOGNX4BKV6OVk3" Comment="Amplitude" Bounds="404,180,35,15" ShowValueBox="true" isIOBox="true" Value="1.34">
+          <Pad Id="OG0ynivItOGNX4BKV6OVk3" Comment="Amplitude" Bounds="404,180,35,15" ShowValueBox="true" isIOBox="true" Value="1.83">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -657,7 +657,7 @@
                       <Pin Id="FcPFlD9kAmHPLzA5axgBGR" Name="Input 2" Kind="InputPin" />
                       <Pin Id="JGRcSveIbO2NqITBlQwpPx" Name="Output" Kind="OutputPin" />
                     </Node>
-                    <Pad Id="T0h17aX45G5LEg3ZVLF6C4" Comment="" Bounds="374,395,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+                    <Pad Id="T0h17aX45G5LEg3ZVLF6C4" Comment="" Bounds="374,395,35,15" ShowValueBox="true" isIOBox="true" Value="0.9899999">
                       <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="TypeFlag" Name="Float32" />
                       </p:TypeAnnotation>
@@ -678,12 +678,12 @@
                       <Pin Id="FD1HfOYxTWvPrGBj7vqe15" Name="Input 2" Kind="InputPin" />
                       <Pin Id="TT01gYwfWm6LknnAcVe8RS" Name="Output" Kind="OutputPin" />
                     </Node>
-                    <Pad Id="IFoBjv2KZnGOrOhYZVVwoQ" Comment="" Bounds="453,401,35,15" ShowValueBox="true" isIOBox="true" Value="0.12">
+                    <Pad Id="IFoBjv2KZnGOrOhYZVVwoQ" Comment="" Bounds="453,401,35,15" ShowValueBox="true" isIOBox="true" Value="0.06">
                       <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="TypeFlag" Name="Float32" />
                       </p:TypeAnnotation>
                     </Pad>
-                    <Pad Id="LzmocTyaR6COO5YTPY4jF6" Comment="" Bounds="434,377,35,15" ShowValueBox="true" isIOBox="true" Value="0.15">
+                    <Pad Id="LzmocTyaR6COO5YTPY4jF6" Comment="" Bounds="434,377,35,15" ShowValueBox="true" isIOBox="true" Value="0.57">
                       <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="TypeFlag" Name="Float32" />
                       </p:TypeAnnotation>
@@ -748,7 +748,7 @@
                   <Pin Id="Oou6UJNrvqAOvHCOH1rQrW" Name="Enabled" Kind="InputPin" />
                   <Pin Id="UMwA65FeBWsPLwZlpnZ1dO" Name="Output" Kind="OutputPin" />
                 </Node>
-                <Pad Id="Jqb7B1myJ2nPA2t2CJYxkY" Comment="" Bounds="625,333,35,15" ShowValueBox="true" isIOBox="true" Value="5.77">
+                <Pad Id="Jqb7B1myJ2nPA2t2CJYxkY" Comment="" Bounds="625,333,35,15" ShowValueBox="true" isIOBox="true" Value="9.36">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
@@ -1179,7 +1179,7 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Node Bounds="493,403,89,19" Id="AMYm7ygBrM4PoHd3zQZqk4">
-                  <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+                  <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="InstancingSetup" />
                   </p:NodeReference>
@@ -1190,7 +1190,7 @@
                   <Pin Id="Aku3C2ef6hyNZGC2TDkGcq" Name="Instancing Component" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="328,408,89,19" Id="NTpBMPldhkLO6cjwbXXplL">
-                  <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+                  <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="InstancingSetup" />
                   </p:NodeReference>
@@ -1218,7 +1218,7 @@
                   <Pin Id="F9ANgzThaKrLLj3tDRtwP3" Name="Entity" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="702,403,89,19" Id="E9rxVUYx9puNpZ8Ol3kfMG">
-                  <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+                  <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="InstancingSetup" />
                   </p:NodeReference>
@@ -1239,7 +1239,7 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Node Bounds="450,303,94,19" Id="NmZLexTZ4haNECswNpw419">
-                  <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+                  <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="SplitToSubclouds" />
                   </p:NodeReference>
@@ -1332,7 +1332,7 @@
                     <Patch Id="DyE7oBJuYacODfXKKMTcnq" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="K18vYJFe5GvP0uUcZR6e05" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="482,533,97,19" Id="UN8LHocWvNUMoqzvbL40E5">
-                      <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+                      <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="SpiralPointCloud" />
                       </p:NodeReference>
@@ -1415,7 +1415,7 @@
             </Patch>
           </Node>
           <Node Bounds="277,231,165,19" Id="DCivLrazv0TNIo7NjUgEXQ">
-            <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+            <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Spiral" />
             </p:NodeReference>
@@ -1436,7 +1436,7 @@
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="LUqfp7TGWfGPuJTz94wucp" Comment="Width" Bounds="544,103,35,15" ShowValueBox="true" isIOBox="true" Value="1.76">
+          <Pad Id="LUqfp7TGWfGPuJTz94wucp" Comment="Width" Bounds="544,103,35,15" ShowValueBox="true" isIOBox="true" Value="3.66">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -1446,18 +1446,18 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="SaQRziRPdA4QM7c26id5vP" Comment="Length" Bounds="602,157,35,15" ShowValueBox="true" isIOBox="true" Value="10.59">
+          <Pad Id="SaQRziRPdA4QM7c26id5vP" Comment="Length" Bounds="602,157,35,15" ShowValueBox="true" isIOBox="true" Value="11.16">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="JHvAFEZl56vO4eqGSzdgzu" Comment="Amplitude" Bounds="629,182,35,15" ShowValueBox="true" isIOBox="true" Value="0.95">
+          <Pad Id="JHvAFEZl56vO4eqGSzdgzu" Comment="Amplitude" Bounds="629,182,35,15" ShowValueBox="true" isIOBox="true" Value="1.64">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="508,234,165,19" Id="Tj72wEae9l0O3mBCstkoST">
-            <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+            <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Spiral" />
             </p:NodeReference>
@@ -1560,7 +1560,7 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Node Bounds="328,408,89,19" Id="SFy7dS4jSx9M6VF5cKGx41">
-                  <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+                  <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="InstancingSetup" />
                   </p:NodeReference>
@@ -1739,7 +1739,7 @@
             </Patch>
           </Node>
           <Node Bounds="468,633,69,19" Id="HOuaRff5id0QRCFjDliuQS">
-            <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+            <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Lights" />
             </p:NodeReference>
@@ -2079,7 +2079,7 @@
             </Patch>
           </Node>
           <Node Bounds="812,482,93,19" Id="BtlUoQ6WWIMMDlvu4B6d8Y">
-            <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+            <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TemplateOverlay" />
             </p:NodeReference>
@@ -2129,7 +2129,7 @@
               <Choice Kind="TypeFlag" Name="Int2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Vwovw1Zup4VL0f5bKpYEMu" Comment="Enabled" Bounds="294,696,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="Vwovw1Zup4VL0f5bKpYEMu" Comment="Enabled" Bounds="294,696,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -2158,7 +2158,7 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="191,687,59,19" Id="JA67Fa2ClYTNmziXGhhnCD">
-            <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+            <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MyPostFX" />
             </p:NodeReference>
@@ -2189,7 +2189,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RenderWindow" />
             </p:NodeReference>
-            <Pin Id="A67zFwlnArCMSkwDXW0CBv" Name="Bounds" Kind="InputPin" DefaultValue="1159, 515, 648, 450">
+            <Pin Id="A67zFwlnArCMSkwDXW0CBv" Name="Bounds" Kind="InputPin" DefaultValue="892.8, 455.2, 571.2, 316">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -2329,7 +2329,7 @@
                     <Patch Id="TDFAY1zYVdeMwEcUMv0W4n" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="APKMIbDtnmWOcylV0LeCzS" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="412,497,98,19" Id="B3mHyjdaxxCLDpMgnAZgOp">
-                      <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+                      <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="DrawingPrimitives" />
                       </p:NodeReference>
@@ -2349,7 +2349,7 @@
                       <Pin Id="RzxXBx2ef0rPqxcQ4ZCrc5" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="573,497,82,19" Id="U7eoqmOO9ZWQZBxVhg3Z42">
-                      <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+                      <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="DrawingCubes" />
                       </p:NodeReference>
@@ -2361,6 +2361,14 @@
                   </Patch>
                 </Node>
                 <ControlPoint Id="CKGvvLDBdcKNcCGSBhO1bf" Bounds="452,302" />
+                <Pad Id="FESnmW0rTP5PNISQShgjwM" Comment="Force" Bounds="378,374,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Boolean" />
+                  </p:TypeAnnotation>
+                  <p:ValueBoxSettings>
+                    <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+                  </p:ValueBoxSettings>
+                </Pad>
               </Canvas>
               <Patch Id="I8FK9kRjfQ4Mp76L1uh77x" Name="Create" />
               <Patch Id="BWyjTJVc1ozO96NsDWoSG5" Name="Update">
@@ -2398,10 +2406,11 @@
               <Link Id="EYPZwHl47qHNYSTIebhqb8" Ids="CbAyeL5bo07OtzPy5qPOAG,SKCpB6Yr2wkQE7q2NQNWnw" />
               <Link Id="CuLtLQIbWQnNeBl7FCXmnl" Ids="CKGvvLDBdcKNcCGSBhO1bf,OHedQDNpR3FOAqCt5Lyxf9" />
               <Link Id="FUUa6YqCaskOxEpmrxuLGs" Ids="TY7aJx3evktMw02bAv5b4x,CKGvvLDBdcKNcCGSBhO1bf" IsHidden="true" />
+              <Link Id="BTZ20DS29yqMDWyvhmjf3O" Ids="FESnmW0rTP5PNISQShgjwM,KyAiNwArIFKQBS09Y9pCCU" />
             </Patch>
           </Node>
           <Node Bounds="276,375,65,19" Id="GwjvY4EUX5BMxrRfbz8fwV">
-            <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+            <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Drawing" />
             </p:NodeReference>
@@ -2412,7 +2421,7 @@
             <Pin Id="B4OOB8hx2qCPQBeQHT6z1J" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="508,379,65,19" Id="VM4P7gqhYEUP7hvLGh1QTH">
-            <p:NodeReference LastCategoryFullName="Main.10_TextureRendering_Camera_2Application" LastSymbolSource="10_TextureRendering_Camera_2.vl">
+            <p:NodeReference LastCategoryFullName="Main.10_3_TextureRendering_TextureWriterApplication" LastSymbolSource="10_3_TextureRendering_TextureWriter.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Drawing" />
             </p:NodeReference>
@@ -2423,6 +2432,11 @@
             <Pin Id="PqVgYigH0goQaI0c23krBb" Name="Output" Kind="OutputPin" />
           </Node>
           <Pad Id="Q2S1h32OowyL0nTf9ObEBn" Comment="Color1" Bounds="298,349,20,15" ShowValueBox="true" isIOBox="true" Value="0.6700002, 0.6700002, 0.6700002, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="FAGrUdcm7D5NdY0KFtlI8O" Comment="Color2" Bounds="321,284,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0.1200006, 0, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
@@ -2482,6 +2496,7 @@
         <Link Id="Nq2nONx0vHKQHWqCRfvZcd" Ids="DAhJ2kQzZg6QPb9HZCeGSF,MtSTTxS1AG1NgnuTD8qwpO" />
         <Link Id="ND4IPkqCUZTNoa4DFx4nPs" Ids="DAhJ2kQzZg6QPb9HZCeGSF,GIsRQRCUo01L1dYNZIjIgb" />
         <Link Id="IgdmGHVFCrRMgx1PD8ETr7" Ids="Q2S1h32OowyL0nTf9ObEBn,AZX3n2T0uGEL2ElVJSCp5u" />
+        <Link Id="QqllyxoVnEDLq67txRHnd4" Ids="FAGrUdcm7D5NdY0KFtlI8O,KyFf5HWXYR6Ndasw4LcZcR" />
       </Patch>
     </Node>
   </Patch>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="SIX7yCJCdnpMRILrPfxXsQ" LanguageVersion="2021.3.2.109" Version="0.128">
-  <NugetDependency Id="SwoyEneIOmXO9sPIcbBwQW" Location="VL.CoreLib" Version="2021.3.2" />
+<Document xmlns:p="property" Id="SIX7yCJCdnpMRILrPfxXsQ" LanguageVersion="2021.3.3.131" Version="0.128">
+  <NugetDependency Id="SwoyEneIOmXO9sPIcbBwQW" Location="VL.CoreLib" Version="2021.3.3" />
   <Patch Id="HpJx3YpBiIMQFPbDSohDwL">
     <Canvas Id="OA4C4REReyXNzAw6gbsXCO" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -31,7 +31,7 @@
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="368,587,198,184" Id="MaJVP1UiDF2N3w0ZfRCLIk">
+          <Node Bounds="368,503,198,184" Id="MaJVP1UiDF2N3w0ZfRCLIk">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -42,7 +42,7 @@
               <Patch Id="SEgIJaAgCZ2NrlkAQMsFV7" Name="Create" ManuallySortedPins="true" />
               <Patch Id="VMsVJF78gT2LFnGwS9P0td" Name="Update" ManuallySortedPins="true" />
               <Patch Id="OGyxxJMuBuqPtXtAlOZScC" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="381,727,145,19" Id="UEZF8zUEc8OOC8TF2FlaGv">
+              <Node Bounds="381,644,145,19" Id="UEZF8zUEc8OOC8TF2FlaGv">
                 <p:NodeReference LastCategoryFullName="Stride.Models" LastSymbolSource="VL.Stride.Engine.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Box" />
@@ -57,7 +57,7 @@
                 <Pin Id="BsnDa0xJuiFOgV8FID1Jk6" Name="Enabled" Kind="InputPin" />
                 <Pin Id="LYf0y7KQZwJNFFGuXIWpU8" Name="Entity" Kind="OutputPin" />
               </Node>
-              <Node Bounds="380,644,67,19" Id="LNS9lPURYRuPudvlmxOdPU">
+              <Node Bounds="380,561,67,19" Id="LNS9lPURYRuPudvlmxOdPU">
                 <p:NodeReference LastCategoryFullName="3D.Matrix" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Translation" />
@@ -65,16 +65,16 @@
                 <Pin Id="MUTyS5Sr6RUOdjbfULyqwL" Name="Translation" Kind="InputPin" />
                 <Pin Id="RnkIIjs4JCHOpqCyLWDkDP" Name="Result" Kind="OutputPin" />
               </Node>
-              <Pad Id="MFPDr7PVTDcPSTLA5YD6NC" Comment="Size" Bounds="478,647,35,43" ShowValueBox="true" isIOBox="true" Value="0.1, 0.1, 0.1">
+              <Pad Id="MFPDr7PVTDcPSTLA5YD6NC" Comment="Size" Bounds="478,564,35,43" ShowValueBox="true" isIOBox="true" Value="0.1, 0.1, 0.1">
                 <p:TypeAnnotation LastCategoryFullName="3D" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Vector3" />
                 </p:TypeAnnotation>
               </Pad>
             </Patch>
-            <ControlPoint Id="QbPkegckX0vNWR1mGpVo47" Bounds="383,765" Alignment="Bottom" />
-            <ControlPoint Id="TNEOCiReKwjMXuuUUkr8fj" Bounds="382,593" Alignment="Top" />
+            <ControlPoint Id="QbPkegckX0vNWR1mGpVo47" Bounds="383,683" Alignment="Bottom" />
+            <ControlPoint Id="TNEOCiReKwjMXuuUUkr8fj" Bounds="382,510" Alignment="Top" />
           </Node>
-          <Node Bounds="363,941,63,19" Id="Qf2acth7MzoPrnvflAvgzH">
+          <Node Bounds="363,858,63,19" Id="Qf2acth7MzoPrnvflAvgzH">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RootScene" />
@@ -84,7 +84,7 @@
             <Pin Id="C0Z7IQPgFPaNk9ZaZxbiHp" Name="Enabled" Kind="InputPin" />
             <Pin Id="IV2uH51rICNMzpqRwkLS0q" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="361,823,65,19" Id="Hw1PlGhickZPEIozpdKKmd">
+          <Node Bounds="361,740,65,19" Id="Hw1PlGhickZPEIozpdKKmd">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Group (Spectral)" />
@@ -96,7 +96,7 @@
             <Pin Id="TqE52f0k4JBL0Ei4QtrwD4" Name="Enabled" Kind="InputPin" />
             <Pin Id="MSgtmtbf3eSQWQSYHcQCgn" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="343,986,205,19" Id="P0TUyY9CODUMII8u0uoXmM">
+          <Node Bounds="343,903,205,19" Id="P0TUyY9CODUMII8u0uoXmM">
             <p:NodeReference LastCategoryFullName="Stride" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
@@ -116,7 +116,7 @@
             <Pin Id="UaJo9EQeocUNwsTZJ3bKrx" Name="Client Bounds" Kind="OutputPin" />
             <Pin Id="RoDZ5SMZ1MNLVBMblc1Kci" Name="Input Source" Kind="OutputPin" />
           </Node>
-          <Node Bounds="452,893,205,19" Id="AbggUj8p7iMLdlABEJPzHl">
+          <Node Bounds="452,810,205,19" Id="AbggUj8p7iMLdlABEJPzHl">
             <p:NodeReference LastCategoryFullName="Stride.Lights" LastSymbolSource="VL.Stride.Engine.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SkyboxLight" />
@@ -150,10 +150,10 @@
           </Pad>
           <!--
 
-    ************************ Model ************************
+    ************************ SpiralPointCloud ************************
 
 -->
-          <Node Name="Model" Bounds="784,236" Id="ITr0YmrZteoNtRXKD5Gfxs">
+          <Node Name="SpiralPointCloud" Bounds="784,236" Id="ITr0YmrZteoNtRXKD5Gfxs">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
               <Choice Kind="ContainerDefinition" Name="Process" />
             </p:NodeReference>
@@ -175,9 +175,9 @@
                     <Patch Id="Rl9jqxnXsMaPetWp6XpIRJ" Name="Update" ManuallySortedPins="true" />
                     <Patch Id="Jk2fjwe6SwPOtpR43liTGc" Name="Dispose" ManuallySortedPins="true" />
                     <Node Bounds="414,370,94,19" Id="VpgD8TjeHwnLA26wU23NHp">
-                      <p:NodeReference LastCategoryFullName="Main.03_AddRandomVariationToTheSpread_4Application.Model" LastSymbolSource="03_AddRandomVariationToTheSpread_4.vl">
+                      <p:NodeReference LastCategoryFullName="Main.03_AddRandomVariationToTheSpread_4Application.SpiralPointCloud" LastSymbolSource="03_AddRandomVariationToTheSpread_4.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <Choice Kind="OperationCallFlag" Name="CalculatePosition" />
+                        <Choice Kind="OperationCallFlag" Name="SampleSpiral" />
                       </p:NodeReference>
                       <Pin Id="KS50aCrCroLL0yDytWnCvM" Name="Input" Kind="InputPin" />
                       <Pin Id="GiGmkA8Mi7POm6gNJuClWF" Name="Length" Kind="InputPin" />
@@ -185,7 +185,7 @@
                       <Pin Id="NOlfxQfuQLfQYPCYXlIoJv" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="417,636,62,19" Id="NAQ0168CSy6QL1khNIQY8t">
-                      <p:NodeReference LastCategoryFullName="Main.03_AddRandomVariationToTheSpread_4Application.Model" LastSymbolSource="03_AddRandomVariationToTheSpread_4.vl">
+                      <p:NodeReference LastCategoryFullName="Main.03_AddRandomVariationToTheSpread_4Application.SpiralPointCloud" LastSymbolSource="03_AddRandomVariationToTheSpread_4.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="AddPoints" />
                       </p:NodeReference>
@@ -318,10 +318,10 @@
                 <ControlPoint Id="EBlUfCNwNuaPKOpGzAmkpu" Bounds="412,172" />
                 <!--
 
-    ************************ CalculatePosition ************************
+    ************************ SampleSpiral ************************
 
 -->
-                <Node Name="CalculatePosition" Bounds="1202,242,231,226" Id="My67FDL0KXaMhhjpnhLQV7">
+                <Node Name="SampleSpiral" Bounds="1202,242,231,226" Id="My67FDL0KXaMhhjpnhLQV7">
                   <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
                     <Choice Kind="OperationDefinition" Name="Operation" />
                   </p:NodeReference>
@@ -538,7 +538,7 @@
                   </Patch>
                 </Node>
                 <Node Bounds="703,286,78,19" Id="Sy38K4xQ1aXMKd8DNzRejv">
-                  <p:NodeReference LastCategoryFullName="Main.03_AddRandomVariationToTheSpread_4Application.Model" LastSymbolSource="03_AddRandomVariationToTheSpread_4.vl">
+                  <p:NodeReference LastCategoryFullName="Main.03_AddRandomVariationToTheSpread_4Application.SpiralPointCloud" LastSymbolSource="03_AddRandomVariationToTheSpread_4.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="SimplexNoise" />
                   </p:NodeReference>
@@ -625,7 +625,7 @@
           <Node Bounds="379,423,45,19" Id="JoZ0G820MqyN5Scjthm0pO">
             <p:NodeReference LastCategoryFullName="Main.03_AddRandomVariationToTheSpread_4Application" LastSymbolSource="03_AddRandomVariationToTheSpread_4.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Model" />
+              <Choice Kind="ProcessAppFlag" Name="SpiralPointCloud" />
             </p:NodeReference>
             <Pin Id="Key9KPNZKMRNlL4d7TZQIX" Name="Input" Kind="InputPin" />
             <Pin Id="PeczHdE9uGfPauOPC8ZOaR" Name="Length" Kind="InputPin" />
@@ -657,6 +657,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Un9tkkJ1aYqMtQxG6h2MOK" Location="VL.CoreLib" Version="2021.3.2" />
-  <NugetDependency Id="Djc5I1kpTIxMC03qOgV6nL" Location="VL.Stride" Version="0.9.96-gbe66fd6c22" />
+  <NugetDependency Id="Un9tkkJ1aYqMtQxG6h2MOK" Location="VL.CoreLib" Version="2021.3.3" />
+  <NugetDependency Id="Djc5I1kpTIxMC03qOgV6nL" Location="VL.Stride" Version="2021.3.3" />
 </Document>

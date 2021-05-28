@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="SIX7yCJCdnpMRILrPfxXsQ" LanguageVersion="2021.3.2.109" Version="0.128">
-  <NugetDependency Id="SwoyEneIOmXO9sPIcbBwQW" Location="VL.CoreLib" Version="2021.3.2" />
+<Document xmlns:p="property" Id="SIX7yCJCdnpMRILrPfxXsQ" LanguageVersion="2021.3.3.131" Version="0.128">
+  <NugetDependency Id="SwoyEneIOmXO9sPIcbBwQW" Location="VL.CoreLib" Version="2021.3.3" />
   <Patch Id="HpJx3YpBiIMQFPbDSohDwL">
     <Canvas Id="OA4C4REReyXNzAw6gbsXCO" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -150,10 +150,10 @@
           </Pad>
           <!--
 
-    ************************ Model ************************
+    ************************ SpiralPointCloud ************************
 
 -->
-          <Node Name="Model" Bounds="784,236" Id="ITr0YmrZteoNtRXKD5Gfxs">
+          <Node Name="SpiralPointCloud" Bounds="784,236" Id="ITr0YmrZteoNtRXKD5Gfxs">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
               <Choice Kind="ContainerDefinition" Name="Process" />
             </p:NodeReference>
@@ -175,9 +175,9 @@
                     <Patch Id="Rl9jqxnXsMaPetWp6XpIRJ" Name="Update" ManuallySortedPins="true" />
                     <Patch Id="Jk2fjwe6SwPOtpR43liTGc" Name="Dispose" ManuallySortedPins="true" />
                     <Node Bounds="415,463,94,19" Id="VpgD8TjeHwnLA26wU23NHp">
-                      <p:NodeReference LastCategoryFullName="Main.03_AddRandomVariationToTheSpread_2Application.Model" LastSymbolSource="03_AddRandomVariationToTheSpread_2.vl">
+                      <p:NodeReference LastCategoryFullName="Main.03_AddRandomVariationToTheSpread_2Application.SpiralPointCloud" LastSymbolSource="03_AddRandomVariationToTheSpread_2.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <Choice Kind="OperationCallFlag" Name="CalculatePosition" />
+                        <Choice Kind="OperationCallFlag" Name="SampleSpiral" />
                       </p:NodeReference>
                       <Pin Id="KS50aCrCroLL0yDytWnCvM" Name="Input" Kind="InputPin" />
                       <Pin Id="GiGmkA8Mi7POm6gNJuClWF" Name="Length" Kind="InputPin" />
@@ -185,7 +185,7 @@
                       <Pin Id="NOlfxQfuQLfQYPCYXlIoJv" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="417,636,62,19" Id="NAQ0168CSy6QL1khNIQY8t">
-                      <p:NodeReference LastCategoryFullName="Main.03_AddRandomVariationToTheSpread_2Application.Model" LastSymbolSource="03_AddRandomVariationToTheSpread_2.vl">
+                      <p:NodeReference LastCategoryFullName="Main.03_AddRandomVariationToTheSpread_2Application.SpiralPointCloud" LastSymbolSource="03_AddRandomVariationToTheSpread_2.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="AddPoints" />
                       </p:NodeReference>
@@ -298,10 +298,10 @@
                 <ControlPoint Id="EBlUfCNwNuaPKOpGzAmkpu" Bounds="412,172" />
                 <!--
 
-    ************************ CalculatePosition ************************
+    ************************ SampleSpiral ************************
 
 -->
-                <Node Name="CalculatePosition" Bounds="975,232,231,226" Id="My67FDL0KXaMhhjpnhLQV7">
+                <Node Name="SampleSpiral" Bounds="975,232,231,226" Id="My67FDL0KXaMhhjpnhLQV7">
                   <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
                     <Choice Kind="OperationDefinition" Name="Operation" />
                   </p:NodeReference>
@@ -474,7 +474,7 @@
           <Node Bounds="379,423,45,19" Id="JoZ0G820MqyN5Scjthm0pO">
             <p:NodeReference LastCategoryFullName="Main.03_AddRandomVariationToTheSpread_2Application" LastSymbolSource="03_AddRandomVariationToTheSpread_2.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Model" />
+              <Choice Kind="ProcessAppFlag" Name="SpiralPointCloud" />
             </p:NodeReference>
             <Pin Id="Key9KPNZKMRNlL4d7TZQIX" Name="Input" Kind="InputPin" />
             <Pin Id="PeczHdE9uGfPauOPC8ZOaR" Name="Length" Kind="InputPin" />
@@ -506,6 +506,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Un9tkkJ1aYqMtQxG6h2MOK" Location="VL.CoreLib" Version="2021.3.2" />
-  <NugetDependency Id="Djc5I1kpTIxMC03qOgV6nL" Location="VL.Stride" Version="0.9.96-gbe66fd6c22" />
+  <NugetDependency Id="Un9tkkJ1aYqMtQxG6h2MOK" Location="VL.CoreLib" Version="2021.3.3" />
+  <NugetDependency Id="Djc5I1kpTIxMC03qOgV6nL" Location="VL.Stride" Version="2021.3.3" />
 </Document>

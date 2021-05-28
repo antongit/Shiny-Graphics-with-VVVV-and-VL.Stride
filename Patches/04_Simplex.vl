@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Sbmre9W3FqDM61kWDaitCm" LanguageVersion="2021.3.2.109" Version="0.128">
-  <NugetDependency Id="Hm3JdPEpM6uOaG3fYdOYOL" Location="VL.CoreLib" Version="2021.3.2" />
+<Document xmlns:p="property" Id="QQxjRpTO0laPyC9BuUZ2OH" LanguageVersion="2021.3.3.131" Version="0.128">
+  <NugetDependency Id="Hm3JdPEpM6uOaG3fYdOYOL" Location="VL.CoreLib" Version="2021.3.3" />
   <Patch Id="SSpMMf70DlbPUozp61CxDK">
     <Canvas Id="BWlElxvmBmsPN3RQgSlk8x" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -204,11 +204,6 @@
         </Canvas>
         <Patch Id="RIOggVnXh4aLXwYilanegL" Name="Create" />
         <Patch Id="PklH2DRITWwLWZI6WtpCYG" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="IzOdjrDGjs5LPUYVN3Twfl">
           <Fragment Id="IxvsP3tqR8dMsbMZv98Dn8" Patch="RIOggVnXh4aLXwYilanegL" Enabled="true" />
           <Fragment Id="FoYlLdikPitPhUEsYZy0HA" Patch="PklH2DRITWwLWZI6WtpCYG" Enabled="true" />
@@ -236,6 +231,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Ip17zQpGYBDQUya1uGz0gM" Location="VL.CoreLib" Version="2021.3.2" />
-  <NugetDependency Id="NhzSAff6ZLALFkuZMVPpfL" Location="VL.Stride" Version="0.9.96-gbe66fd6c22" />
+  <NugetDependency Id="Ip17zQpGYBDQUya1uGz0gM" Location="VL.CoreLib" Version="2021.3.3" />
+  <NugetDependency Id="NhzSAff6ZLALFkuZMVPpfL" Location="VL.Stride" Version="2021.3.3" />
 </Document>
